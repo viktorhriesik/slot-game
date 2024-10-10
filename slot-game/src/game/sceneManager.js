@@ -5,10 +5,10 @@ import Phaser from 'phaser';
 
 const config = {
     type: Phaser.AUTO,
-    width: 750,
-    height: 400,
+    width: 850,
+    height: 542,
     parent: 'game-container',
-    backgroundColor: '#028af8',
+    transparent: true,
     physics: {
         default: 'arcade',
         arcade: {
@@ -16,6 +16,10 @@ const config = {
             debug: false
         }
     }, 
+    scale: {
+        
+        
+    },
     scene: [
         Preloader,
         MainMenu,

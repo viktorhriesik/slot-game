@@ -11,9 +11,20 @@ export default class Preloader extends Scene
     preload ()
     {
         this.load.setPath('../assets');
-        this.load.image('lemon', 'lemon.png');
-        this.load.image('cherry', 'cherry.png');
-        this.load.image('bell', 'bell.png'); 
+        this.load.image('startGame', 'startGame.png'); 
+        this.load.image('border', 'border.png'); 
+        this.load.image('menu_screen', 'menu_screen.png'); 
+
+        this.load.image('book', 'book.png'); 
+        this.load.image('pharaoh', 'pharaoh.png');
+        this.load.image('scarab', 'scarab.png'); 
+        this.load.image('statue', 'statue.png'); 
+        this.load.image('symbol', 'symbol.png'); 
+        this.load.image('A', 'A.png'); 
+        this.load.image('K', 'K.png'); 
+        this.load.image('Q', 'Q.png'); 
+        this.load.image('10', '10.png');
+
     }
 
     create ()
