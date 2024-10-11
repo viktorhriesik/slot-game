@@ -15,3 +15,5 @@ Book of AmunRa is an ancient Egypt-themed slot game built with Vue.js and Phaser
 - Pharaoh's Theme: Ancient Egypt-inspired design and symbols.
 - Responsive Design: Works seamlessly across devices (desktop and mobile).
 - Real-Time Animations: Smooth and engaging slot animations using Phaser 3.
+  
+![gameplay](https://github.com/user-attachments/assets/ec12e6f3-b9ee-475c-a6f4-204c41e12310)
